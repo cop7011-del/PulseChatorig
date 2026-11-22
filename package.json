@@ -1,0 +1,19 @@
+{
+  "name": "pulsechat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "app": "electron .",
+    "app:dev": "electron ."
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
